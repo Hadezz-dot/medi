@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah - Media Integrasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+        .dropdown-menu {
+            display: none;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-50 text-gray-800">
+
+    <header class="bg-blue-700 text-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            
+            <h1 class="text-3xl font-bold mb-4 md:mb-0">
+                <a href="index.html" class="hover:text-blue-200 flex items-center space-x-3">
+                    <img src="images/logo-png.png" alt="Logo Media Integrasi" class="h-20 w-20 object-contain">
+                    <span class="text-3xl font-bold">Media Integrasi</span>
+                </a>
+            </h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-lg hover:text-blue-200 border-b-2 border-blue-200 pb-1">Beranda</a></li>
+                    
+                    <li class="relative dropdown">
+                        <div class="text-lg hover:text-blue-200 pb-1 cursor-pointer flex items-center">
+                            Tentang Kami
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                        <ul class="dropdown-menu absolute left-0 w-48 bg-white rounded-md shadow-lg z-20 py-2 border border-gray-200">
+                            <li><a href="about.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Tentang Kami (Ringkas)</a></li>
+                            <li><a href="visimisi.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Visi & Misi</a></li>
+                            <li><a href="sejarah.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Sejarah</a></li>
+                            <li><a href="tim.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Tim Kami</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="relative dropdown">
+                        <div class="text-lg hover:text-blue-200 pb-1 cursor-pointer flex items-center">
+                            Layanan
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                        <ul class="dropdown-menu absolute left-0 w-60 bg-white rounded-md shadow-lg z-20 py-2 border border-gray-200">
+                            <li><a href="services-logo.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Design Logo</a></li>
+                            <li><a href="services-website.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Website</a></li>
+                            <li><a href="services-presentasi.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Presentasi</a></li>
+                            <li><a href="services-company-profile.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Company Profile</a></li>
+                            <li><a href="services-sosial-media.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Kelola Sosial Media</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="gallery.html" class="text-lg hover:text-blue-200 pb-1">Gallery</a></li>
+                    <li><a href="contact.html" class="text-lg hover:text-blue-200 pb-1">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="min-h-screen">
+        <section id="sejarah-content" class="py-16 md:py-24">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-5xl font-extrabold text-blue-700 mb-12 border-b-4 border-blue-200 pb-4">
+                    Sejarah Singkat Media Integrasi 🕰️
+                </h2>
+
+                <p class="text-xl leading-relaxed mb-8 text-gray-700">
+                    Media Integrasi didirikan pada tahun 2018 di Pemalang, Jawa Tengah, dengan visi sederhana: menjembatani kesenjangan antara bisnis lokal dan potensi dunia digital.
+                </p>
+
+                <div class="space-y-10">
+                    <div class="relative pl-10">
+                        <div class="absolute w-2 h-full bg-blue-400 left-0 top-0 rounded-full"></div>
+                        <h4 class="text-2xl font-bold text-blue-600 mb-2">Awal Mula (2018)</h4>
+                        <p class="text-gray-600">Dimulai sebagai studio desain kecil yang melayani kebutuhan cetak dan branding usaha mikro, kecil, dan menengah (UMKM) di sekitar Pemalang.</p>
+                    </div>
+
+                    <div class="relative pl-10">
+                        <div class="absolute w-2 h-full bg-blue-400 left-0 top-0 rounded-full"></div>
+                        <h4 class="text-2xl font-bold text-blue-600 mb-2">Ekspansi Digital (2020)</h4>
+                        <p class="text-gray-600">Menanggapi meningkatnya permintaan pasar, kami memperluas layanan ke pengembangan website, fokus pada website company profile dan e-commerce sederhana.</p>
+                    </div>
+
+                    <div class="relative pl-10">
+                        <div class="absolute w-2 h-full bg-blue-400 left-0 top-0 rounded-full"></div>
+                        <h4 class="text-2xl font-bold text-blue-600 mb-2">Masa Kini dan Masa Depan (2025)</h4>
+                        <p class="text-gray-600">Kini, kami adalah agensi terintegrasi yang melayani klien dari berbagai sektor di seluruh Jawa Tengah, berkomitmen untuk terus berinovasi dalam desain dan teknologi.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Media Integrasi. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Logo - Media Integrasi</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"> 
+    <style>
+        .dropdown-menu { display: none; margin-top: -10px; }
+        .dropdown:hover .dropdown-menu { display: block; }
+    </style>
+</head>
+<body class="font-sans antialiased bg-gray-50 text-gray-800">
+
+    <header class="bg-blue-700 text-white shadow-md">
+        <div class="container mx-auto px-6 py-4 flex flex-col md:flex-row justify-between items-center">
+            
+            <h1 class="text-3xl font-bold mb-4 md:mb-0">
+                <a href="index.html" class="hover:text-blue-200 flex items-center space-x-3">
+                    <img src="images/logo-png.png" alt="Logo Media Integrasi" class="h-20 w-20 object-contain">
+                    <span class="text-3xl font-bold">Media Integrasi</span>
+                </a>
+            </h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="index.html" class="text-lg hover:text-blue-200 border-b-2 border-blue-200 pb-1">Beranda</a></li>
+                    
+                    <li class="relative dropdown">
+                        <div class="text-lg hover:text-blue-200 pb-1 cursor-pointer flex items-center">
+                            Tentang Kami
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                        <ul class="dropdown-menu absolute left-0 w-48 bg-white rounded-md shadow-lg z-20 py-2 border border-gray-200">
+                            <li><a href="about.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Tentang Kami (Ringkas)</a></li>
+                            <li><a href="visimisi.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Visi & Misi</a></li>
+                            <li><a href="sejarah.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Sejarah</a></li>
+                            <li><a href="tim.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Tim Kami</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="relative dropdown">
+                        <div class="text-lg hover:text-blue-200 pb-1 cursor-pointer flex items-center">
+                            Layanan
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                        </div>
+                        <ul class="dropdown-menu absolute left-0 w-60 bg-white rounded-md shadow-lg z-20 py-2 border border-gray-200">
+                            <li><a href="services-logo.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Design Logo</a></li>
+                            <li><a href="services-website.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Website</a></li>
+                            <li><a href="services-presentasi.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Presentasi</a></li>
+                            <li><a href="services-company-profile.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Pembuatan Company Profile</a></li>
+                            <li><a href="services-sosial-media.html" class="block px-4 py-2 text-sm text-black hover:bg-gray-100">Kelola Sosial Media</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="gallery.html" class="text-lg hover:text-blue-200 pb-1">Gallery</a></li>
+                    <li><a href="contact.html" class="text-lg hover:text-blue-200 pb-1">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="min-h-screen">
+        <section id="service-content" class="py-16 md:py-24">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="text-5xl font-extrabold text-blue-700 mb-8 border-b-4 border-blue-200 pb-4">
+                    Layanan: Design Logo 🎨
+                </h2>
+                
+                <p class="text-xl leading-relaxed mb-8 text-gray-700">
+                    Kami menciptakan logo yang <b>unik, berkesan, dan relevan</b> dengan identitas bisnis Anda. Logo adalah wajah pertama perusahaan Anda; biarkan kami membuatnya berkesan.
+                </p>
+
+                <ul class="list-disc list-inside space-y-4 text-lg text-gray-700 ml-4 p-6 bg-white shadow rounded-lg">
+                    <li>Riset mendalam mengenai target pasar dan pesaing.</li>
+                    <li>Pembuatan 3-5 konsep desain awal.</li>
+                    <li>Revisi tanpa batas (atau sesuai paket).</li>
+                    <li>Pengiriman file master dalam berbagai format (Ai, EPS, PNG, JPEG).</li>
+                    <li>Panduan penggunaan (Brand Guideline Dasar).</li>
+                </ul>
+
+                <div class="mt-10 text-center">
+                    <a href="contact.html" class="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full text-lg shadow-xl transition duration-300">
+                        Pesan Jasa Desain Logo Sekarang &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Media Integrasi. Semua Hak Cipta Dilindungi.</p>
+        </div>
+    </footer>
+</body>
+</html>
